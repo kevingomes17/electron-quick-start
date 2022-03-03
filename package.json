@@ -1,5 +1,5 @@
 {
-  "name": "hello-electron",
+  "name": "electron-quick-start",
   "version": "1.0.2",
   "description": "A minimal Electron application",
   "main": "main.js",
@@ -9,7 +9,7 @@
     "make": "electron-forge make",
     "estart": "electron start"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/kevingomes17/electron-quick-start",
   "keywords": [
     "Electron",
     "quick",
