@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+    <link href="./styles.css" rel="stylesheet">
+    <title>Lock/Unlock Desktop</title>
+  </head>
+  <body>
+    <h1>Hello World 1.0.2!</h1>
+    We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>.
+    <!-- <iframe title="Lock/Unlock App" src="https://lul-dev01.wawa.com/store-menu-manager/ui/" frameborder="0" width="100%" style="height: 100vh;"></iframe> -->
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
